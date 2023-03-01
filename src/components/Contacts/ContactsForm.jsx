@@ -36,7 +36,7 @@ class ContactForm extends Component {
   render() {
 
     return (
-      <form onSubmit={this.handleSubmit} className={css.form} action="">
+      <form className={css.wrapper} onSubmit={this.handleSubmit}>
         <label className={css.label} htmlFor={this.nameInputId}>
           Name{' '}
           <input
