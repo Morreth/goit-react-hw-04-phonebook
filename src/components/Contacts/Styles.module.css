@@ -7,6 +7,15 @@
 
 }
 
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgb(188, 208, 250);
+  }
+
+
 .form {
     display: inline-flex;
     padding-top: 20px;
@@ -20,7 +29,7 @@
 
 .label {
     margin-bottom: 10px;
-    background-color: rgb(188, 208, 250);
+ 
 }
 
 .input {
