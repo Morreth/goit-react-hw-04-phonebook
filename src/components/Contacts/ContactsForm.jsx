@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { useState } from 'react';
 import css from './Styles.module.css'
 import { nanoid } from "nanoid";
 import PropTypes from 'prop-types'
@@ -10,6 +11,7 @@ class ContactForm extends Component {
     number: '',
   }
 
+  
   handleChange = event => {
     const { name, value } = event.currentTarget;
     this.setState({ [name]: value, });
